@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    /* border: 2px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: -55px; */
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+.img img {
+
+    width: 300px !important;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+    /* border: 2px solid black; */
+}
+
+
+.justforcenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -37px;
+    margin-bottom: 70px;
+    /* width: 100px; */
+    /* border: 2px solid red; */
+}
+
+.main-con {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* width: 10px; */
+    /* width: 100%; */
+    /* border: 2px solid black; */
+    border: 1px solid black;
+    /* z-index: -1; */
+    padding-inline: 50px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 100px blue;
+
+}
+.repass{
+    margin-top: -19px;
+}
+
+.par {
+    font-size: 12px !important;
+    margin-top: -9px;
+}
+
+.par i {
+    margin: 10px;
+    font-size: 16px;
+    color: cornflowerblue;
+
+}
+
+.btn button {
+    width: 377px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    height: 42px;
+}
+
+input {
+    width: 400px;
+}
+
+.heding {
+    display: flex !important;
+    justify-content: start !important;
+    width: 100%;
+    padding-top: 40px;
+
+}
